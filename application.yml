@@ -6,7 +6,9 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
-    
+
+paymentendpoint: http://PAYMENT-SERVICE/foodPayment/makePayment
+
 microservices:
   payment-service:
     endpoints:
